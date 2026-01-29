@@ -1,0 +1,20 @@
+Ligon examples:
+2D/basics
+ligon.intialize(2d):
+variable = (number):
+variable = ("name")
+window.create(name, x, y):
+window.color.set(r, g, b):
+ligon.draw.("objectname"):{
+     ligon.draw.color(r, g, b);
+     ligon.draw.create.rect(x, y, w, h);
+},
+if (ifstatement).run:{
+     codehere
+},
+3D/advanced
+ligon.intialize(3d):
+window.create(name, x, y):
+window.color(255, 255, 255):
+render.model(modelpathfromprojectroot):
+ligon.getservice{exampleaddonservice};:

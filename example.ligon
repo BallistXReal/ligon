@@ -1,0 +1,10 @@
+ligon.initialize("2d"):
+{
+    window.create("main", 800, 600):
+    window.color.set(255, 255, 255):
+
+    ligon.draw("objectname"):{
+        ligon.draw.color(255, 0, 0):
+        ligon.draw.create.rect(10, 10, 100, 50):
+    },
+}
