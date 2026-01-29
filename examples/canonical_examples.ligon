@@ -1,0 +1,23 @@
+ligon.initialize("2d"):
+{
+    window.create("main", 800, 600):
+    window.color.set(255, 255, 255):
+
+    ligon.draw("objectname"):{
+        ligon.draw.color(255, 0, 0):
+        ligon.draw.create.rect(10, 10, 100, 50):
+    },
+
+    if (player.health < 0).run:{
+        // code here
+    },
+}
+
+// 3D example
+ligon.initialize("3d"):
+{
+    window.create("3d_view", 1024, 768):
+    window.color(255, 255, 255):
+    render.model("models/character.obj"):
+    ligon.getservice{exampleAddonService}:;
+}
